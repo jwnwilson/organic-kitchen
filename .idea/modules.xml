@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/organic-kitchen.iml" filepath="$PROJECT_DIR$/.idea/organic-kitchen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../organic_kitchen_02/.idea/organic_kitchen_02.iml" filepath="$PROJECT_DIR$/../organic_kitchen_02/.idea/organic_kitchen_02.iml" />
     </modules>
   </component>
 </project>

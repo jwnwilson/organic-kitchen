@@ -8,6 +8,11 @@ handlers:
 - url: .*
   script: myproject.wsgi.application
 
+builtins:
+- django_wsgi: on
+
 libraries:
 - name: django
   version: 1.5
+- name: MySQLdb
+  version: "latest"
