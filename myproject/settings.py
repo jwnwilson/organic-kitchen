@@ -96,6 +96,12 @@ STATICFILES_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+ADMIN_MEDIA_PREFIX = '/media/admin/'
+MEDIA_ROOT = os.path.join(os.path.dirname(__file__), 'media')
+TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), 'templates'),)
+
+ROOT_URLCONF = 'urls'
+
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
@@ -129,20 +135,14 @@ ROOT_URLCONF = 'myproject.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
-TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-)
-
 INSTALLED_APPS = (
-    'organicKitchen',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'organicKitchen',
 )
 
 # A sample logging configuration. The only tangible logging
