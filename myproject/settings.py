@@ -5,7 +5,7 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Noel Wilson', 'jwnwilson@hotmail.co.uk'),
+    ('Noel Wilson', 'jwnwilson@hotmail.co.uk')
 )
 
 MANAGERS = ADMINS
@@ -137,6 +137,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 INSTALLED_APPS = (
     'django.contrib.auth',
+    'django.contrib.admin',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
