@@ -5,6 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 2.7.8 (D:\Python27\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="organic_kitchen_02" />
+    <orderEntry type="module" module-name="NoelWilson" />
   </component>
 </module>
 

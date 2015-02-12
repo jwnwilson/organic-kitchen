@@ -6,7 +6,7 @@ threadsafe: true
 
 handlers:
 - url: .*
-  script: myproject.wsgi.application
+  script: main.wsgi.application
 
 builtins:
 - django_wsgi: on
